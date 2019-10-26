@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(255, 248, 146);
+}
+img {
+    max-width: 500px; 
+    border: 10px rgb(235, 231, 0) solid; 
+}
+
+h1{
+  font-size: 90px;
+  padding: 30px;
+  margin: 40px;
+  border: 10px rgb(235, 231, 0) solid;
+
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Chilanka', cursive;
+   
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.display-none {
+    display: none;
+}
+button:hover {
+    background-color: rgb(212, 209, 33);
+    color: white;
+}
+.button {
+    margin: 10px;
+    border-radius: 10%;
+}

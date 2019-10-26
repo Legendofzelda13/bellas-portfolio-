@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- this is how we link up the css -->
+    <link href="css/game.css" rel="stylesheet" type="text/css">
+    <!-- And this is how we link up the JS! -->
+    <script defer src="javascript/game.js"></script>
+    <!-- A fun title -->
+    <title>Empowering Tic Tac Toe for the Good of Humanity</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html">home</a> &nbsp; | &nbsp;
+        <a href="#">games</a> &nbsp; | &nbsp;
+        <a href="fanpage.html">About Maya Angelou</a> &nbsp; | &nbsp;
+        <a href="about.html">about me</a>
+    </nav>
+    <h1>Tic-Tac-Toe</h1>
+    <h2>It's X's turn!</h2>
+    <!-- Many websites are just divs on divs on divs. -->
+    <div class="flex-container flex-column">
+        <div class="flex-container flex-wrap" id="board">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <!-- I added a little reset button because our users are going to want to play round after round of our glorious game without ever refreshing the browser! -->
+        <button id="reset-button">reset</button>
+    </div>
+</body>
+
+</html>
